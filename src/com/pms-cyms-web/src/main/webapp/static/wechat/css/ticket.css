@@ -1,0 +1,92 @@
+#header{
+	color: #fff;
+    width: 100%;   
+    background: url(../img/header_bg.jpg) no-repeat left top;
+	background-size: 100%;
+	height: 2.813rem;
+	margin: 0 auto;
+	z-index: -1;
+}
+#header .top{
+	background-color: rgba(0,0,0,0.5);
+	overflow: hidden;
+	height:  2.813rem;
+}
+
+#header .top>div{
+	padding: .675rem 0;
+	text-align: center;	
+}
+#header .top>div a{
+	display: inline-block;
+	width:100%;
+	height:100%;
+	color: #fff;
+	font-size: .8125rem;
+}
+#header .top>div h3{
+	font-weight: normal;
+	font-size: 1.25rem;
+	color: #fff;
+}
+    body,.mui-content{
+    	background-color:#F2F2F2;
+    }
+    .mui-slider .mui-segmented-control.mui-segmented-control-inverted~.mui-slider-group .mui-slider-item{
+    	border-bottom:none;
+    }
+    	.mui-segmented-control.mui-scroll-wrapper .mui-scroll{
+    		width:100%;
+    	}
+    	.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active{
+    		background-color:#31B080;/*#3399CC*/
+    		color:#fff;
+    	}
+    	.mui-segmented-control.mui-segmented-control-inverted .mui-control-item{
+    		width:50%;
+    	}
+    	.mui-slider-group ul{
+    		margin:15px 25px 0;
+    	}
+    	#Coupons ul li,#RoomCoupons ul li{
+    		overflow:hidden;
+    		border:1px solid #797979;
+    		color:#fff;
+    		text-align:center;
+    		font-size:1rem;
+    		margin-top:5px;
+    		}
+    	#Coupons ul li div p,#RoomCoupons ul li div p{
+    		color:#fff;
+    		margin-bottom:3px;
+    	}
+    	#Coupons ul li div.detail{
+    		background-color:#F3A232;
+    	}
+    	input[type=text]{
+    		color:gray;
+    	}
+    	#RoomCoupons ul li div.detail{
+    		background-color:#9D12A5;
+    	}
+    	#Coupons ul li div.detail,#RoomCoupons ul li div.detail{
+    		width:85%;
+    		height:100px;
+    	}
+    	#Coupons ul li div.yhj,#RoomCoupons ul li div.yhj{
+    		width:15%;
+    		min-height:100px;  		
+    		background-color:#FEFAF1;
+    		color:#000;
+    		padding-top:18px;
+    		border-left:1px solid #797979;
+    	}
+    	#Coupons ul li div.detail span,#RoomCoupons ul li div.detail span {
+    		display:inline-block;
+    	}
+    	.CouponsName{
+    		margin:15px 0;
+    	}
+    	.CouponsMoney{
+    		font-size:1.8rem;
+    	}

@@ -1,0 +1,4 @@
+.Wdate{border:#999 1px solid;height:20px;background:#fff url(datePicker.gif) no-repeat right;}
+.WdateFmtErr{font-weight:bold;color:red;}
+.build-edit{display:inline-block;width:100px;height:30px;line-height:30px;text-align:center;background-color:#fff;border:1px solid #ccc;margin-left:5px;}
+.edit-icon{display:inline-block;width:30px;height:30px;line-height:30px;text-align:center;background-color:#fff;border:1px solid #ccc;margin-left:-5px;}

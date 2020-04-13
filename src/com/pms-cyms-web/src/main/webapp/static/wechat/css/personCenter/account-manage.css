@@ -1,0 +1,101 @@
+#header{
+	color: #fff;
+    width: 100%;   
+    background: url(../../img/header_bg.jpg) no-repeat left top;
+	background-size: 100%;
+	height: 2.813rem;
+	margin: 0 auto;
+	z-index: -1;
+}
+#header .top{
+	background-color: rgba(0,0,0,0.5);
+	overflow: hidden;
+	height:  2.813rem;
+}
+
+#header .top>div{
+	padding: .675rem 0;
+	text-align: center;	
+}
+#header .top>div a{
+	display: inline-block;
+	width:100%;
+	height:100%;
+	color: #fff;
+	font-size: .8125rem;
+}
+#header .top>div h3{
+	font-weight: normal;
+	font-size: 1.25rem;
+	color: #fff;
+}
+.mui-content{background-color: transparent;}
+.top-manage{
+	padding-top:1.5rem;
+}
+.top-manage>div{
+	padding:0 1.25rem;
+	height:50px;
+	line-height:50px;
+	border-bottom:1px solid #E4E4E4;
+}
+.top-manage>div>.left{
+	width:30%;
+	font-size:1rem;
+	color:#8F8F94;
+}
+.top-manage .text{
+	height:50px;	
+}
+.top-manage .text p{
+	width:80%;
+	text-align: center;
+}
+.top-manage .text div.lf{
+	width:20%;
+	text-align: right;
+	margin-top: 14px;
+}
+.top-manage .text>.left span{
+	display:inline-block;
+	border:2px solid gray;
+	border-radius: 50%;
+	height:48px;
+	width:48px;
+	text-align: center;
+}
+.top-manage .text>.left span i{
+	vertical-align: middle;
+	font-size:2.2rem;
+}
+.top-manage .text .lf i{
+	font-size:1.4rem;
+	color:#DDDAD8;
+}
+.top-manage>div>.right{
+	width:70%;
+}
+.member-message{
+	padding:0 1.25rem;
+	background-color:#F7F6F5;
+}
+.member-message>div{
+	height:35px;
+	line-height: 35px;
+	font-size:.8rem;
+	
+}
+#foot{
+	width:100%;
+	text-align: center;
+	padding-top:1rem;
+	padding-bottom:1rem;
+}
+#foot a{
+	display: inline-block;
+	color:#fff;
+	background-color: #31B080;
+	padding:.5rem 2rem;
+	border-radius: 5px;
+}
+

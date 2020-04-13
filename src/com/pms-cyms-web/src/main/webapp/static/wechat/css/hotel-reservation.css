@@ -1,0 +1,238 @@
+.mui-slider{text-align:center;}
+.card-top{
+	position: absolute;
+	z-index: 9999;
+	padding: .675rem 0;
+	font-size: 1.2rem;
+	text-align:center;
+}
+.mui-slider .mui-scroll-wrapper button.mui-control-item{
+	display:inline-block;
+	font-size:1rem;
+	width:30%;
+	text-align:center;
+	height:10vw;
+	line-height:10vw;
+	color:#fff;
+	background-color: #E4E4E4;
+	margin:0 3px;
+	border-radius:0;
+}
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active{
+	background-color:#009DD9;
+	color:#fff;
+}
+.mui-card-content{
+	padding-top:1rem;
+}
+.mui-slider-group{	
+	padding:0 10px;
+	margin-top:10px;
+}
+.mui-card{
+	margin:0;
+}
+
+.popular-hotel{color:#333;margin:15px 5px 5px;font-size:1rem;}
+.htBtn .mui-btn{
+	background-color:#31B080;
+	color:#fff;
+}
+.searchArea{
+	overflow:hidden;
+	text-align: center;
+	border-bottom: 1px dashed #999;
+    padding-top: .28125rem;
+    height:49px;
+    line-height:49px;
+    position:relative;
+}
+.searchArea .city-name{
+	text-align: left;
+    color: #fff;
+    position: absolute;
+    bottom:0;
+    left: 0;
+    padding: 0 1rem;
+    background-color: #31B080;
+    height: 1.8rem;
+    line-height: 1.8rem;
+    
+}
+.searchArea .city{
+	display: inline-block;
+    color: #333;
+    font-size:1.2rem;
+}
+.searchArea i{
+	text-align:center;
+	font-size: 1.5rem;
+	color: #31B080;
+	position:absolute;
+	right:0;
+	top:18;
+}
+.CdataSelect{
+	border-bottom: 1px dashed #999;
+	font-size: .75rem;
+}
+.Date_lr{width:50%;text-align:center;}
+.span21{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	font-size:12px;
+	color: #666;
+	border: 1px solid #e5e5e5;
+	padding:2px 8px;
+	line-height: 20px;
+	border-radius: 1rem;
+	background-color: #fff;
+}
+#checkinout{
+	height: 49px;
+	line-height: 50px;
+	position: relative;
+	padding-top: .2rem;
+	display: -webkit-box;
+	display: flex;
+	/*border: 1px solid #e5e5e5;*/
+	border-radius: .02rem;
+	background-color: #fff;
+}
+#firstSelect p{line-height:25px;color: #999;font-size:12px;}
+#startDate{border:0;position: absolute;left: 0;margin: 0 auto;width: 50%;font-size: 16px;text-align: center;background-color:#fff;color: #31B080;height:18px;padding:0 15px;}
+#endDate{border:0;position: absolute;right: 0;margin:auto 0;width:50%;font-size: 16px;text-align: center;background-color:#fff;color: #31B080;height:18px;padding:0 15px;}
+.mask_calendar {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0,0,0,.4);
+	display: none;
+	z-index: 9999;
+}
+.calendar {
+	height: 400px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.animated {
+	animation-duration: 1s;
+	animation-fill-mode: both;
+}
+@keyframes slideInDown {
+	from {
+		transform: translate3d(0, -100%, 0);
+		visibility: visible;
+	}
+
+	to {
+		transform: translate3d(0, 0, 0);
+	}
+}
+.slideInDown {
+	animation-name: slideInDown;
+}
+
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active{
+	background-color:#31B080;
+}
+
+.ClockHouse-date{
+	border-bottom: 1px dashed #333;
+    font-size: .75rem;
+    padding-top: 1.263rem;
+    text-align:center;
+    position:relative;
+}
+.ClockHouse-date p{
+	height:1.8rem;
+	background-color:#E4E4E4;
+}
+.ClockHouse-date p span{
+	height:1.8rem;
+	line-height:1.8rem;
+}
+.ClockHouse-date .date-name{
+	text-align:left;
+	color:#fff;
+	position:absolute;
+	left:0;	
+	padding: 0 1rem;
+	background-color:#31B080;
+}
+.ClockHouse-date .date{
+	color:#333;
+	font-size:1rem;	
+}
+.midnight-date{
+	border-bottom: 1px dashed #333;
+    font-size: .75rem;
+    padding-top: 1.263rem;
+    text-align:center;
+    height:50px;   
+}
+.midnight-date p{
+	height:1.8rem;
+	background-color:#E4E4E4;
+	position:relative;
+	bottom:0;
+}
+.midnight-date p span{
+	height:1.8rem;
+	line-height:1.8rem;
+}
+.midnight-date .date-name{
+	text-align:left;
+	color:#fff;
+	position:absolute;
+	left:0;	
+	padding: 0 1rem;
+	background-color:#31B080;
+}
+.midnight-date .date{
+	color:#333;
+	font-size:1rem;	
+}
+.Chotcitys{
+	width:100%;
+}
+.Chotcitys .itemCity{
+	overflow:hidden;
+	margin-bottom: .79167rem;
+	border-radius: 6px;
+    height: 5.75rem;
+}
+.cityImg{width:33.3333%;}
+.cityImg img{
+	width: 100%;
+    height: 5.75rem;
+}
+.cityInfo{    
+	width: 66.6667%;
+	background-color: #fafafa;
+	min-height: 5.75rem;
+}
+.cityInfo .cityBox{
+	padding: 0 .9375rem 0 .9375rem;
+}
+.cityInfo .cityBox h4{
+	color:#333;
+	font-weight: normal;
+	margin-top:1.2rem;
+}
+.cityInfo .cityBox h4 span{
+	color:#31B080;
+}
+.cityInfo .cityBox p{
+	font-size: .8125rem;
+	color:#ccc;
+	margin:.312rem 0;
+}

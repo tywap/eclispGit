@@ -1,0 +1,179 @@
+.top {
+	height: 100px;
+	background-color: #31B080;/*#3399CC*/
+}
+
+#main {
+	margin-top: 44px;
+}
+.mui-bar{
+	background-color: #31B080;
+}
+.mui-bar-nav {
+	box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+.mui-content {
+	background-color: transparent;
+}
+
+.top {
+	text-align: center;
+}
+
+.ThisBalance {
+	color: #fff;
+	font-size: 0.8rem;
+}
+
+.balance {
+	width: 80%;
+	border-bottom: 1px dashed #fff;
+	margin: 5px auto;
+	padding: 8px 0;
+	text-align: center;
+	color: #fff;
+	font-size: 1.8rem;
+}
+
+.mui-btn-block {
+	margin-left: 0;
+}
+
+.money {
+	overflow: hidden;
+	padding: 15px 0 25px;
+	background-color: #F2F2F2;
+}
+
+.money li {
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+
+.money li .mui-btn {
+	display: inline-block;
+	width: 70%;
+	height: 45px;
+	line-height: 30px;
+	margin-top: 15px;
+	font-size: 1.2rem;
+}
+
+.describe {
+	margin-left: 10px;
+	display: none;
+	font-size: 1.5rem;
+	line-height: 1.5rem;
+	padding: 0.4rem;
+}
+
+.describe span {
+	color: #333;
+	display:block;
+	font-size:1rem;
+}
+
+#footer {
+	margin-top: 50px;
+}
+
+#footer .mui-bar {
+	background-color: #31B080;/*#FF9900*/
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+	font-size: 1.2rem;
+}
+.mui-radio input[type=radio]:checked:before{
+	color: #31B080;
+}
+.mui-btn-blue{
+	border: none;
+    background-color: #31B080;
+}
+.mui-btn-blue:enabled:active{
+	border: none;
+    background-color: #31B080;
+}
+a:focus {
+	border: none;
+}
+
+a.active {
+	border: 1px solid #31B080;/*#FF9900*/
+	color: #31B080;
+}
+
+#popver {
+	height: 300px;
+	bottom: 0;
+	background-color: #F2F2F2;
+}
+
+.pay {
+	height: 40px;
+	line-height: 40px;
+	padding: 0 10px;
+}
+
+.pay .close {
+	font-size: 2.0rem;
+}
+
+.PayMoney {
+	color: #ff0000;
+	font-size: 1rem;
+}
+
+form div.mui-input-row {
+	background-color: #fff;
+	border-top: 1px solid #797979;
+	height: 50px;
+	line-height: 50px;
+	margin: 0 1px;
+}
+
+.mui-input-row:last-child {
+	background-color: #fff;
+	border-top: 1px solid #797979;
+	border-bottom: 1px solid #797979;
+}
+
+.mui-input-row label img {
+	width: 25px;
+}
+
+.mui-input-row label img {
+	width: 25px;
+	vertical-align: middle;
+}
+
+.mui-input-row input[type=radio] {
+	margin-top: 5px;
+}
+
+.remind {
+	display: block;
+	text-indent: 2em;
+}
+
+.Choose {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.isMoney {
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	width: 80%;
+	min-height: 100px;
+	margin-top: -50px;
+	text-align: center;
+	background-color: #f2f2f2;
+	z-index: 999;
+}

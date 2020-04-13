@@ -1,0 +1,45 @@
+#contentTable{
+	width:100%;
+}
+.table tr td input{
+	width:auto;
+}
+.table tr td{	
+	text-align:center;
+}
+.table tr td.colFirstLeft {
+	text-align:left ;
+}
+td.left{
+	width:100%;
+	padding:4px 0; 
+	float:left !important;
+}
+td.left label{
+	margin-right:15px;
+}
+#left{
+	padding:0 5px;
+}
+#left ul li a{
+	color:#555;
+	padding:3px 12px;
+}
+#left ul li.active a{
+	background-color:#EFEFEF;
+}
+#main{float:left;width:85%;}
+#main>div{display:none;}
+#main>div.active{display:inline-block; width:100%;}
+.form-horizontal .control-label-xs{
+	width:120px;
+	margin-left:0;
+}
+.table tr td input.select-medium6{
+	width:94%;	
+}
+@media screen and (max-width:1200px){
+	td.left label{
+		margin-right:0;
+	}
+}

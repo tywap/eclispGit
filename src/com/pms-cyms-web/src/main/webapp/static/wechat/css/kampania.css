@@ -1,0 +1,120 @@
+#header{
+	color: #fff;
+    width: 100%;   
+    background: url(../img/header_bg.jpg) no-repeat left top;
+  /* background-color:rgba(0,0,0,.2);*/
+	background-size: 100%;
+	height: 2.813rem;
+	margin: 0 auto;
+}
+#header .top{
+	background-color: rgba(0,0,0,0.5);
+	overflow: hidden;
+	height:  2.813rem;
+}
+#header .top>div{
+	padding: .675rem 0;
+	text-align: center;	
+}
+.Filtrate a span{
+	font-size:1rem;
+}
+#header .top>div a{
+	display: inline-block;
+	width:100%;
+	height:100%;
+	color: #fff;
+	font-size: 1.3125rem;
+}
+#header .top .title{
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#header .top>div h3{
+	font-weight: normal;
+	font-size: 1.25rem;
+	color: #fff;
+}
+#main{
+    margin: 20px 0 40px;
+}
+#main p{
+	line-height:25px;
+}
+#main img{
+	width:100%;
+}
+.main-top{
+	padding-top:1rem;
+	padding-bottom:1rem;
+}
+.main-top>p{
+	text-indent: 2em;
+}
+.main-top>img{
+	width:100%;
+	margin:.5rem 0;	
+}
+.main-content .room-type{
+	text-align: center;
+}
+.main-content .room-type a{
+	display: inline-block;
+	color:#fff;
+	font-size:1rem;
+	background-color:#E4E4E4;
+	width:30%;
+	text-align:center;
+	padding:.8rem 0;
+	border-radius:5px;
+}
+.main-content .room-type a.active{
+	background-color: #009DD9;
+}
+.room-list{
+	margin-top:.3rem;
+	padding:0 .1rem;
+}
+.room-list>div{
+	display: none;
+}
+.room-list>div.active{
+	display: block;
+}
+.room-list .city-name{
+	background-color: #3399cc;
+	color:#333;
+	text-align: center;
+}
+.room-list .city-detail{
+	padding-top:.6rem;
+}
+.room-list .city-img img{
+	width:100%;
+}
+.room-list .room-detail{
+	border-bottom:1px solid #ccc;
+	padding-left:.3rem;
+}
+ .room-list .room-detail p{
+ 	font-size:.8rem;
+ 	color:#333;
+ }
+ .room-list .room-site .money{
+ 	font-size:1.3rem;
+ 	color:#ff0000;
+	padding-left:1.5rem;
+ }
+ .city{
+ 	padding-top:.8rem;
+ }
+ @media screen and (min-width:320px){
+ 	.room-list .room-detail p{
+ 		font-size:12px;
+ 	}
+ 	.room-list .room-site .money{
+ 		font-size:14px;
+	    padding-left: 1rem;
+ 	}
+ }

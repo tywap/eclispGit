@@ -1,0 +1,65 @@
+#header .colse{
+	padding-top: 1.25rem;
+    font-size: 2.3375rem;  
+    padding-bottom: .625rem;
+    padding-left: .625rem;
+    padding-right: .625rem;
+    width: 100%;
+    margin-left: -.625rem;
+    text-align:right;
+}
+#header .colse a{
+	 color: #c4c4c4;
+}
+#header .title{
+	color: #333;
+    font-size: .9375rem;
+    letter-spacing: 3px;
+    line-height: .9375rem;
+    margin-bottom: 1.375rem;
+    font-weight: normal;
+    text-align:center;
+}
+.mainInfo{
+	padding-left: .9375rem;
+    padding-right: .9375rem;
+    margin-top: 1.875rem;
+    max-height: 16.875rem;
+}
+.mainInfo .wrap>div{
+	margin-bottom: 1.0625rem;
+    
+}
+.wrap>div>div>span:first-child{
+	display:inline-block;
+	width:4rem;
+	text-align: justify;
+    text-align-last: justify;
+	color: gray;
+    font-size: .875rem;
+    vertical-align: top;
+}
+
+.wrap>div>div>span:last-child{
+	color: #333;
+    font-size: .875rem;
+}
+.wrap span.remarksSection{
+	color: #333;
+    font-size: .875rem;
+    width:76%; 
+	display:inline-block;
+}
+@media screen and (min-width: 414px) {
+	.wrap span.remarksSection{
+		width:81%; 
+	}	
+}
+.roomimgs{
+	    padding: 1rem 1.25rem 1rem;
+}
+.roomimgs img{
+	width: 100%;
+    display: block;
+    border-radius: 5px;
+}

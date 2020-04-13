@@ -1,0 +1,155 @@
+#header{
+	height:22.90625rem;
+	position:relative;
+	background:url(../img/test.jpg) no-repeat center top;
+	background-size:100% 100%;
+	z-index:1;
+}
+#header .myInfo{
+	overflow:hidden;
+	padding: .97917rem .8rem 0;
+}
+#header .myInfo a{
+	color:#fff;
+	font-size:.875rem;
+}
+#header .myInfo a i{
+	font-size:1.3667rem;
+}
+#header .myInfo a span{
+	margin-left: .3125rem;
+}
+#header .jt_logo{
+	margin-top:3.67rem;
+	width:100%;
+	text-align:center;
+}
+#header .jt_logo img{	
+	width:15.83333rem;
+}
+#container{
+	display:none;
+}
+#tip{
+	background-color:transparent;
+	border:none;
+	position:relative;
+	text-align: center;
+	left:0;
+	z-index:999;
+	color:#fff;
+}
+.searchHotel{
+	height: 4.0625rem;
+	width:100%;
+    padding: 0 1.79167rem;
+	position:relative;
+	top:-1.59rem;
+	z-index:99;
+}
+.searchHotel a{
+	display:inline-block;
+	width: 100%;
+	height: 4.0625rem;
+	line-height: 4.0625rem;
+	border-radius:4px;
+	overflow: hidden;
+	box-shadow: 0 0 14px 8px rgba(101,28,77,.1);	
+}
+.searchHotel a .content{
+	background-color: #fff;
+}
+.searchHotel a .content span{
+	font-size: 1rem;
+	color: #b3b2b2;
+	padding-left: 1.5625rem;
+    text-align: left;
+    display: block;
+}    
+.searchHotel a .zoomup{
+	background-color: #31B080;
+	height: 4.0625rem;
+	line-height: 4.0625rem;;
+	text-align:center;
+	color:#fff;
+}
+.searchHotel a .zoomup i{
+	font-size:1.58333rem;
+	line-height: 4.0625rem;
+}
+#main{
+	background-color: #fff;	
+	margin-top:-4.1rem;
+	min-height:150px;
+}
+.Cactivity{
+	background-color: #fff;
+	padding:5rem 1.25rem 2.5rem;;
+	overflow: hidden;
+}
+.Cactivity .pure>div a{
+	display: inline-block;
+	width:100%;
+	text-align:center;
+	font-size: .875rem;
+	color: #333;
+}
+.Cactivity .pure>div a i{
+	display:block;
+	font-size: 1.8125rem;
+	color:gray;
+}
+.Cactivity .pure>div a span{
+	display:block;
+	margin-top: .625rem;
+}
+.hotcitys{padding:0 1.25rem;}
+.hotcitys h2{
+	text-align:center;
+	font-size: .9375rem;
+	line-height: .9375rem;
+    padding: 1.66rem 1.21rem 1.04rem ;
+    color: #666;
+    font-weight: normal;
+    clear:both;
+}
+.ActivityImg a{
+	display:inline-block;
+	width:100%;
+}
+.ActivityImg span{
+	margin-bottom:5px;
+	color:#666;
+	font-size:.8rem;
+}
+.ActivityImg img{
+	width:100%;
+	height:150px;
+	border-radius:5px;
+}
+@media screen and (min-width: 414px){
+	.slide{
+		border:1px solid red;
+		width:79%;
+		min-height:1.875rem;
+		line-height:1.875rem;
+		margin:0 0.5rem;
+	}
+}
+@media screen and (max-width: 375px){
+	.slide{
+		border:1px solid red;
+		width:82%;
+		min-height:1.875rem;
+		line-height:1.875rem;
+		margin:0 0;
+	}
+	.edgGap{
+		padding: 0 .712rem;
+	}
+	.ActivityImg img{
+		height:130px;
+	}
+}
+
+

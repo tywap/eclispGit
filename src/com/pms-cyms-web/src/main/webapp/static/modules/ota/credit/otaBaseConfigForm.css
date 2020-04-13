@@ -1,0 +1,30 @@
+.table tr td input{
+			width:auto;		
+		}
+		.table tr td{	
+			text-align:center;
+		}
+		.table tr td.colFirstLeft {
+			text-align:left ;
+		}
+		td.left{
+			width:100%;
+			padding:4px 0; 
+			float:left !important;
+		}
+		td.left label{
+			margin-right:15px;
+		}
+		#left{
+			padding:0 5px;
+		}
+		.left label:last-child{
+			margin-right:0;
+		}
+		#left ul li a{
+			color:#555;
+			padding:3px 12px;
+		}
+		#left ul li.active a{
+			background-color:#EFEFEF;
+		}

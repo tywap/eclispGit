@@ -1,0 +1,140 @@
+html,body{overflow:scroll;}
+#header{
+	color:#fff;
+	background-color:#fff;
+}
+.top{
+	overflow:hidden;
+	padding: 1.375rem 0;
+    background-image: url(../img/bigger_bg_header.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+}
+.usingBack{
+	width: 16.6667%;
+}
+.usingBack a{
+	padding: .625rem 0;
+    display: inline-block;
+    width: 100%;
+    text-align:center;
+}
+.usingBack a i{
+    color: #fff;
+}
+input[type=text]{
+	margin:0;
+	padding:0;	
+}
+.wrap{	
+	padding-right: .9375rem;	
+}
+.box i{
+	display:inline-block;
+	margin-top:10px;
+}
+.wrap .box{
+	overflow:hidden;
+	background-color:#fff;
+	width:100%;
+	border-radius: 4px;
+	padding: .312rem 0;
+	color:#31B080;
+}
+.wrap .box>div:nth-child(2){
+	width:75%;
+}
+.wrap .box>div:first-child,.wrap .box>div:last-child{
+	    width: 12.5%;
+	    height:34px;
+	    line-height:34px;
+	    text-align:center;
+	    font-size: 1rem;
+}
+.box .lf i{
+	display:none;
+}
+.box .right .icon2{
+	display:none;
+}
+.nearwayHotel{
+	border-bottom: 1px solid #f3f3f3;
+	overflow:hidden;
+}
+.currlocation{
+	display: block;
+	position: relative;
+}
+.nearwayHotel a span.iconbg {
+	width:21px;
+	text-align:center;
+	height:21px;
+    line-height: 1.1875rem;
+    background-color: #e45778;
+    color:#fff;
+    position: absolute;
+    left: 0;
+    top: .8125rem;
+    display: inline-block; 
+	border-radius:5px;
+}
+.nearwayHotel a span.near {
+    padding-top: .9375rem;
+    padding-bottom: .9375rem;
+    color: #333;
+    font-size: .875rem;
+    line-height: 1.1875rem;
+    padding-left: 1.75rem;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+}
+.Citywrap .tab_header{
+	overflow:hidden;
+	border-bottom: 1px solid #f3f3f3;
+}
+.Citywrap .tab_header a{
+	float:left;
+	text-align:center;
+	display:inline-block;
+	color: #666;
+    font-size: .875rem;
+    line-height: 1rem;
+    padding: 1rem 0;
+}
+.Citywrap .tab_header a.active{
+	border-bottom:2px solid #31B080;
+	color:#31B080;
+}
+.showLetter{
+    position: fixed;
+    color:#31B080;
+    width: 50px;
+    height:50px;
+    top:30%;
+    left: 45%;
+    border-radius: 50%;
+    border: 1px solid #31B080;
+    text-align: center;
+    display: none;
+    z-index:100;
+}
+.showLetter span{width: 50px;height: 45px;line-height: 50px;font-size: 30px;}
+.letter{width:auto;position:fixed;top:10%;right:0;text-align:center;z-index:1;}
+.letter ul{list-style-type:none;}
+.letter ul li a{text-decoration:none;color:#31B080;padding:3px 5px;font-size: 18px}
+.city-list ul,.city-list ol{width:100%;}
+.city-list ul li,.city-list ol li{
+    font-size: 1.025rem;
+    line-height: .8125rem;
+    padding: .9375rem 0;
+    color: #333;
+    border-bottom: 1px solid #f3f3f3;
+    text-align:center;
+}
+
+
+
+
+

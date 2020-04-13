@@ -1,0 +1,155 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Terminal Dosis Light', Arial, sans-serif;
+	font-size: 16px;
+	overflow: hidden;
+}
+
+a {
+	text-decoration: none;
+}
+
+.bf_background img {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width:100%;
+	z-index: -1;
+}
+.index-header{width: 100%; height: 60px;position: relative;margin:0;z-index: 99;}
+.header-logo{width: auto;height: 60px;position: absolute;top: 0;left: 30px;z-index: 999;}
+.header-logo img{width: auto;height: 50px;z-index: 9999;margin-top: 5px;}
+.header-user{position: absolute;top: 0;right: 50px;z-index: 999;line-height: 60px;color: #FFFFFF;cursor: pointer;}
+.header_bg{
+	width: 100%; 
+	height: 60px;
+	background: #2E363F;
+	filter: alpha(opacity=60);
+	-moz-opacity: 0.6;
+	-webkit-opacity: 0.6;
+	opacity: 0.6;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.container {
+	width: 970px;
+	height: 480px;
+	margin: 120px auto;
+	z-index: 60;
+	position: relative;
+	padding: 25px;
+}
+
+.container_bg {
+	width: 970px;
+	height: 480px;
+	background-color: #FFFFFF;
+	filter: alpha(opacity=40);
+	-moz-opacity: 0.4;
+	-webkit-opacity: 0.4;
+	opacity: 0.4;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px #666;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.left {
+	float: left;
+	width: 300px;
+	height: 330px;
+	margin-right: 10px;
+	display: inline;
+}
+.logo{
+	width: 300px;
+	height: 120px;
+	position: relative;
+}
+.logo .bg{
+	background: #FFFFFF url(../images/logo01.png) no-repeat center center;
+}
+.bg {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 99;
+}
+
+.booking, .marketing, .accounting{
+	width: 300px;
+	height: 160px;
+	cursor: pointer;
+	position: relative;
+}
+.booking .txt, .accounting .txt,.marketing .txt, .form .txt, .channel .txt,.setting .txt{
+	position: absolute;
+	width: 160px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	top: 55px;
+	left: 70px;
+	color: #FFFFFF;
+	font-size: 26px;
+	z-index: 9999;
+	font-family: microsoft yahei;
+}
+.channel, .form, .setting {
+	width: 300px;
+	height: 160px;
+	margin-top: 10px;
+	cursor: pointer;
+	position: relative;
+}
+.booking .bg{
+	background-color: #0480BE;
+}
+.accounting .bg{
+	background-color: #19ADAD;
+}
+.marketing .bg{
+	background-color: #C868B0;
+}
+.form .bg{
+	background-color: #329832;
+}
+.channel .bg{
+	background-color: #F09604;
+}
+.setting .bg{
+	background-color: #98D24A;
+}
+.branch .bg{
+	background-color: #C0665E;
+}
+.branch {
+	width: 920px;
+	height: 90px;
+	margin-top: 10px;
+	cursor: pointer;
+	position: relative;
+}
+.branch .bg1{
+	background-color: #000;
+}
+
+ .branch .txt{
+	position: absolute;
+	width: 160px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	top: 20px;
+	left: 380px;
+	color: #FFFFFF;
+	font-size: 26px;
+	z-index: 9999;
+	font-family: microsoft yahei;
+}

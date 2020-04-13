@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<parent>
+		<groupId>com.jinchuan.pms</groupId>
+		<artifactId>pms-cyms</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<artifactId>pms-cyms-web</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+
+	<name>pms-cyms-web</name>
+	<description>pms-cyms-web</description>
+
+	<packaging>war</packaging>
+
+	<properties>
+		<config.root>${config.prefix}/pms-cyms</config.root>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.jinchuan.pms</groupId>
+			<artifactId>pms-cyms-service</artifactId>
+			<version>1.0.0-SNAPSHOT</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<version>2.5</version>
+			<scope>provided</scope>
+		</dependency>
+		
+		<!--百度UEditor所需的jar包 -->
+		<dependency>
+		    <groupId>cn.songxinqiang</groupId>
+		    <artifactId>com.baidu.ueditor</artifactId>
+		    <version>1.1.2-edit-1.0</version>
+		</dependency>
+	</dependencies>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.tomcat.maven</groupId>
+				<artifactId>tomcat7-maven-plugin</artifactId>
+				<configuration>
+					<port>8081</port>
+					<path>/</path>
+				</configuration>
+			</plugin>
+			<!-- Maven Jetty Plugin -->
+			<plugin>
+				<groupId>org.eclipse.jetty</groupId>
+				<artifactId>jetty-maven-plugin</artifactId>
+				<version>9.3.6.v20151106</version>
+				<configuration>
+					<!-- 每2秒的间隔扫描一次,实现热部署 -->
+					<scanIntervalSeconds>2</scanIntervalSeconds>
+					<connectors>
+						<connector implementation="org.eclipse.jetty.server.nio.SelectChannelConnector">
+							<port>8081</port>
+						</connector>
+					</connectors>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>2.6</version>
+				<configuration>
+					<webResources>
+						<resource>
+							<directory>${basedir}/src/main/webapp/WEB-INF</directory>
+							<filtering>true</filtering>
+							<targetPath>WEB-INF</targetPath>
+							<includes>
+								<include>**/*.xml</include>
+							</includes>
+						</resource>
+					</webResources>
+					<warName>cyms</warName>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+  	<repositories><!-- 代码库 -->
+        <repository>
+            <id>maven-ali</id>
+            <url>http://maven.aliyun.com/nexus/content/groups/public//</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+                <checksumPolicy>fail</checksumPolicy>
+            </snapshots>
+        </repository>
+    </repositories>
+</project>

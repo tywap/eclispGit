@@ -1,0 +1,219 @@
+#header{
+	color: #fff;
+    width: 100%;   
+    background: url(../img/header_bg.jpg) no-repeat left top;
+  /* background-color:rgba(0,0,0,.2);*/
+	background-size: 100%;
+	height: 2.813rem;
+	margin: 0 auto;
+}
+#header .top{
+	background-color: rgba(0,0,0,0.5);
+	overflow: hidden;
+	height:  2.813rem;
+}
+#header .top>div{
+	padding: .675rem 0;
+	text-align: center;	
+}
+.Filtrate a span{
+	font-size:1rem;
+}
+#header .top>div a{
+	display: inline-block;
+	width:100%;
+	height:100%;
+	color: #fff;
+	font-size: 1.3125rem;
+}
+#header .top>div h3{
+	font-weight: normal;
+	font-size: 1.25rem;
+	color: #fff;
+}
+#main{
+	padding-top:1rem;
+}
+.Guest-book img{
+	margin:10px 0;
+	width:100%;
+}
+.Guest-book p{
+	text-indent: 2em;
+}
+.Guestbook-content{
+	padding-top:.2rem;
+}
+.Guestbook-content>p{
+	color:#333;
+}
+.Guestbook-content p .user-name{
+	line-height:1.5rem;
+	color:#3399CC;
+	font-size:.8rem;
+}
+
+.animate{
+	animation: shake 1s linear 0s 1 alternate;
+}
+@keyframes shake{
+	0%{
+		transform:rotate(0deg);
+	}
+	25%{
+		transform:rotate(-15deg) scale(1.5,1.5);
+		margin-top:-5px;
+	}
+	50%{
+		transform:rotate(15deg) scale(2.5,2.5);
+		margin-top:-5px;
+	}
+	100%{
+		transform:rotate(0deg);					
+	}
+}
+
+.content{height:20rem;}
+.content>div{
+	padding-top:.8rem;
+	padding-bottom:.8rem;
+	border-bottom:1px solid #BCBCBC;
+}
+.content div.userImg{	
+	height:67px;
+	text-align:center;
+}
+.content div.userImg>img{
+	width:70%;
+	height:13vw;
+	border-radius:50%;
+}
+.content .revert span{
+	font-size:.6rem;
+	color:#FF6600;
+}
+.content-detail .user-message span{
+	font-size:.8rem;
+}
+.content-detail .user-message span.date{
+	margin-left:.5rem;
+	font-size:#333;	
+}
+.content .comment {
+	clear:both;
+}
+.content-detail .praise{
+	position:relative;
+	text-align: right;
+	padding-right:1.5rem;
+}
+.content-detail .praise img{
+	position:absolute;
+	width:20px;
+	height:20px;
+	vertical-align: top;
+	top:0;
+}
+.content .comment span{
+	font-size:.6rem;
+	color:gray;
+	line-height:0px;
+}
+.Guestbook-content{
+	margin-bottom:8rem;
+}
+.my-leave-word{
+	position:fixed;
+	left:0;
+	top:0;
+	background-color:#3399cc;
+	width:100%;
+	height:100%;
+	z-index:99;
+}
+.titleName{
+	color:#fff;
+	margin:1rem 0;
+	line-height:1.7rem;
+	position:relative;
+}
+.titleName h3{
+	color:#fff;
+	float:left;
+	font-size:1rem;
+}
+.titleName span{
+	float: right;
+	font-size:2.5rem;
+	margin-top:-7px;
+}
+.text-content{text-align: center;}
+.text-content textarea{
+	width:100%;
+	font-size:1rem;
+	padding:.3rem;
+}
+.text-content button{
+	background-color:#FD9540 ;
+	width:80%;
+	border:none;
+	padding:.5rem;
+	margin:1.5rem 0;
+}
+.bottom .hr{
+	border-top:1px solid gray;
+	text-align: center;
+	position:relative;
+	margin-bottom:1rem;
+}
+.bottom .hr span{
+	display: inline-block;
+	position:absolute;
+	margin-top:-10px;
+	margin-left:-32px;
+	color:#fff;
+	font-size:.8rem;
+	background-color:#3399cc;
+}
+
+.my-leave-word{
+	display:none;
+}
+.my-leave-word .userImg{
+	height:67px;
+	text-align:center;
+}
+.my-leave-word div.userImg>img{
+	width:70%;
+	height:13vw;
+	border-radius:50%;
+}
+.my-leave-word .leave-word{
+	padding:.5rem 1.25rem;
+}
+.my-leave-word .content-detail span{
+	color:#333;
+}
+.my-leave-word .comment span{
+	font-size:.8rem;
+}
+.my-leave-word .revert span{
+	font-size:.8rem;
+	color:#FF6600;
+}
+
+#footer{
+	width:100%;
+	position:fixed;
+	bottom:0;
+	left:0;
+	text-align:center;	
+}
+#footer a{
+	display: block;
+	width:100%;
+	padding:1rem;
+	color:#fff;
+	font-size:1.2rem;
+	background-color:#3399CC;	
+}

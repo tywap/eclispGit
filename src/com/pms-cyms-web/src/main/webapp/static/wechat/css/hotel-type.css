@@ -1,0 +1,457 @@
+#header{
+	position: fixed;
+	top:0;
+	left:0;
+	width:100%;
+	z-index:10;
+	background:url(../img/green_bg.jpg) no-repeat left top;/* bigger_bg_header.jpg */
+	background-size:100% 150%;
+	padding-bottom: 2.6875rem;	
+}
+.top{
+	overflow:hidden;
+	text-align:center;
+	color:#fff;
+	height:2.813rem;
+}
+.TypeName h3{
+	font-weight: normal;
+	font-size: 1.25rem;
+	color: #fff;
+}
+.CdataSelect .checkdate{
+	display:none !important;
+}
+.CdataSelect>.active{
+	display:block !important;
+}
+.mui-content{
+	background-color:transparent;
+}
+.Filtrate a{
+	display: inline-block;
+	width:100%;
+	font-size:14px;
+}
+.top div{
+	padding: .675rem 0;
+}
+.top a{color:#fff;}
+.grade span{
+	display:inline-block;
+	width: 180px;
+	overflow: hidden; 
+	text-overflow:ellipsis; 
+	white-space: nowrap;
+}
+.mui-scroll{height:100%;}
+.mui-scroll-wrapper{
+	overflow:auto;
+}
+#filtrate{
+	position:absolute;
+    z-index: 99;
+    background-color: #f2f2f2;
+    top: 0;
+    right: 0;
+    width: 90%;
+    height: 100%;
+}
+#filtrate .closeBtn{
+	text-align:right;
+	font-size:2rem;
+	color:gray;
+	padding: 5px 0;
+}
+.filtrate-content p{
+	margin:3px 0;
+}
+.filtrate-bottom{
+	position:relative;
+	margin-top: 8px;
+	width:100%;			
+}
+.edgeGap{
+	padding:0 .712rem;
+}
+.filtrate-bottom .fBtn{
+	display:block;
+	width:100%;
+	padding:.3rem 0;
+	font-size:1rem;
+	color:#fff;
+	background-color:#31B080;
+}
+.mui-off-canvas-right{
+	background-color:#f2f2f2;
+	width:80%;
+}
+.filtrate-content button.active{
+	background-color:#929292;
+	color:#fff;
+}
+.surroundings>button,.room-type>button,.room-facility>button{
+	border:none;
+	border-radius:5px;
+	width:30%;
+	font-size:.6rem;
+	margin-bottom:4px;
+	margin-right:4px;
+	padding:.3rem 0;
+}
+.room-type{
+	border-top:1px solid #fff;
+	border-bottom:1px solid #fff;
+}
+.star-level{
+	margin-bottom:3px;
+}
+.star-level button{
+	padding:3px 0;
+	border:none;
+	width:20%;
+}
+.room-type .star-level button{
+	border:none;
+	border-radius:5px;
+	font-size:.8rem;
+	margin-bottom:4px;
+	/*margin-right:2px;*/
+	padding:.25rem .7rem;
+}
+.clear-search a{
+	margin-top:3px;
+	display:inline-block;
+	font-weight:bold;
+	width:100%;
+	text-align:center;
+	letter-spacing:2px;
+	color:#929292;
+	border-radius:5px;
+	padding:.3rem;
+	background-color:#fff;
+	font-size: .8rem;
+}
+/*.clear-search a:hover{
+	background-color:#929292;
+	color:#fff;
+}*/
+.DatePlugin{
+	padding:0 1.25rem;
+	margin-top:2.813rem;
+}
+.DatePlugin .PluginContent{
+	padding: 0 .625rem;
+	background-color:#fff;
+	border-radius:5px;
+	z-index:20;
+	position:relative;
+
+}
+.searchArea{
+	overflow:hidden;
+	padding: .9375rem .46875rem .625rem;	
+}
+.searchArea .city{
+	display: inline-block;
+    color: gray;
+}
+.searchArea i{
+	text-align: right;
+	font-size: 1rem;
+	color: #31B080;
+}
+.CdataSelect{
+	border-top: 1px solid #f3f3f3;
+	padding: .78125rem 0;
+	font-size: .75rem;
+}
+.Date_lr{width:50%;text-align:center;}
+.span21{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	font-size:12px;
+	color: #666;
+	border: 1px solid #e5e5e5;
+	padding:2px 8px;
+	line-height: 20px;
+	border-radius: 1rem;
+	background-color: #fff;
+}
+#checkinout{
+	height: 50px;
+	line-height: 50px;
+	position: relative;
+	padding: 2px 0;
+	display: -webkit-box;
+	display: flex;
+	/*border: 1px solid #e5e5e5;*/
+	border-radius: .02rem;
+	background-color: #fff;
+}
+#firstSelect p{line-height:25px;color: #999;font-size:12px;}
+#startDate{border:0;position: absolute;left: 0;margin: 0 auto;width: 50%;font-size: 16px;text-align: center;background-color:#fff;color: 
+#31B080;height:30px;padding:0 15px;}
+#endDate{border:0;position: absolute;right: 0;margin:auto 0;width:50%;font-size: 16px;text-align: center;background-color:#fff;color: 
+#31B080;height:30px;padding:0 15px;}
+.mask_calendar {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0,0,0,.4);
+	display: none;
+	z-index: 9999;
+}
+.calendar {
+	height: 400px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.animated {
+	animation-duration: 1s;
+	animation-fill-mode: both;
+}
+@keyframes slideInDown {
+	from {
+		transform: translate3d(0, -100%, 0);
+		visibility: visible;
+	}
+
+	to {
+		transform: translate3d(0, 0, 0);
+	}
+}
+.slideInDown {
+	animation-name: slideInDown;
+}
+#main{
+	margin-top:1rem;
+}
+.activity_box{
+	width:100%;	
+	overflow:hidden;
+	background-color: #fff;
+	padding: .625rem 1.25rem;
+	margin-bottom: .625rem;
+}
+.activity_box i{
+	display:inline-block;
+	color:#dbdbdb;
+	font-size:.875rem;
+}
+.activity_box span{
+	margin-left: .375rem;
+    letter-spacing: 1px;
+}
+.leftArrow{
+	text-align:right;
+}
+.mainbox>div{padding:0 1.25rem;}
+.sortByName{
+	overflow:hidden;
+	text-align:center;
+	border-bottom:1px solid #F3F3F3;
+	z-index: 9;
+    width: 100%;
+    background-color: #fff;	
+}
+.sortByName>a{
+	padding: .9375rem 0;
+	color:#666666;
+}
+.sortByName .active{
+	color:#31B080;
+}
+.CityList>div{
+	display:none;
+}
+.CityList>div.active{
+	display:block;
+}
+.CityList .HotelDetail{
+	overflow:hidden;
+	padding: .8125rem 0;
+}
+.HotelDetail .HotelImg{	
+	vertical-align: middle;
+}
+.HotelDetail .HotelImg img{
+	border:1px solid transparent;
+	border-radius:50%;
+	width: 3.71875rem;
+    height: 3.71875rem;
+}
+.HotelDetail .HotelAll{
+	border-bottom:1px solid #f3f3f3;
+	padding-bottom: .9375rem;
+}
+.HotelDetail .HotelAll h4{
+	margin:0;
+	padding:0;
+	font-size:.9375rem;
+	color:#333;
+}
+.HotelDetail .HotelAll p i{
+	font-size:1.375rem;
+	font-weight:lighter;
+}
+.HotelDetail .HotelAll p{
+	font-size: .8125rem;
+	color: #bfbfbf;
+	margin:0;
+}
+.HotelDetail .HotelAll .gradMoney{
+	overflow:hidden;
+	margin-top:.5625rem;
+}
+.HotelDetail .HotelAll .gradMoney .grade{
+	color:#666;
+	font-size: .8125rem;
+	font-size: .9375rem;
+}
+.HotelDetail .HotelAll .gradMoney .grade span{
+	font-size: .8375rem;
+	padding-left:3px;
+	color: #bfbfbf;
+}
+.HotelDetail .HotelAll .gradMoney .commentNum{
+	text-indent: 1em;
+	color: #bfbfbf;
+	font-size: .8125rem;
+}
+.HotelDetail .HotelAll .gradMoney .money{
+	color: #bfbfbf;
+	font-size: .8125rem;
+}
+.HotelDetail .HotelAll .gradMoney .money span{
+	font-size: 1rem;
+	font-weight:bold;
+	color: #ff0000;
+	vertical-align: -2px;
+	margin-right: .1875rem;
+}
+.HotelDetail .HotelAll .htlPackage-Tabs span{
+	display: inline-block;
+	font-size: .625rem;
+	padding: 0 .4125rem;
+	margin-right: .40625rem;
+    border-radius: 2px;
+    margin-top: .25rem;
+    border-radius:4px;
+    color:#31B080;
+    border:1px solid #31B080;
+}
+.ActivityRegulation{
+	display:none;
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background-color:rgba(51,51,51,.7);
+	z-index:999;
+}
+.ActivityRegulationBox{
+	position:relative;
+	width:83%;
+	top:20%;
+	margin:0 auto;
+	border-radius: 4px;
+    background-color: #fff;
+    padding: 1.5625rem 1rem;
+}
+.ActivityRegulationBox h2{
+	color: #333;
+    font-size: .9375rem;
+    letter-spacing: 3px;
+    line-height: .9375rem;
+    margin-bottom: 1.375rem;
+    font-weight: normal;
+	text-align: center;
+}
+.ActivityRegulationBox .content{
+	max-height: 230px;
+    overflow: auto;
+    padding: 0;
+    color: #333;
+    font-size: .875rem;
+    line-height: 1rem;
+    padding-left: .9375rem;
+    padding-right: .9375rem;
+}
+.ActivityRegulationBox .btn{
+	padding-left: .9375rem;
+    padding-right: .9375rem;
+    margin-top: 2.5rem;
+}
+.ActivityRegulationBox .btn a{
+	background-color: #31B080;
+	display: block;
+    box-sizing: border-box;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    line-height: 2.1875;
+    border-radius: 5px;
+    overflow: hidden;
+}
+#footer{
+	padding-top:1rem;
+	color:gray;
+	fong-size:.6rem;
+	text-align: center;
+}
+#footer p{
+	border-top:1px solid #ccc;	
+}
+#footer span{
+	display:inline-block;	
+	padding:0 .5rem;
+	margin:0 auto;
+	background-color:#F7F6F5;
+	position:relative;
+	top:-.7rem;	
+}
+@media screen and (max-width: 375px){
+	.HotelDetail .HotelImg img{
+		border:1px solid transparent;
+		border-radius:50%;
+		width: 3.65625rem;
+    	height: 3.65625rem;
+	}
+	.HotelDetail .pure-n-4-5{
+		width:77%;
+		margin-left:5px;
+	}
+	.mainbox>div{padding: 0 .6375rem;}
+	.filtrate-content{
+		width:100%;
+	}
+	.grade span{
+		display:inline-block;
+		width: 150px;
+		overflow: hidden; 
+		text-overflow:ellipsis; 
+		white-space: nowrap;
+}
+}
+@media screen and (max-width:320px){
+	.surroundings>button,.room-type>button,.room-facility>button{
+		width:32%;
+		margin-right:0;
+	}
+}
+
+
+
+
+

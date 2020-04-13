@@ -1,0 +1,162 @@
+#header{
+	color: #fff;
+    width: 100%;   
+    background: url(../img/header_bg.jpg) no-repeat left top;
+	background-size: 100%;
+	height: 2.813rem;
+	margin: 0 auto;
+	z-index: -1;
+}
+#header .top{
+	background-color: rgba(0,0,0,0.5);
+	overflow: hidden;
+	height:  2.813rem;
+}
+
+#header .top>div{
+	padding: .675rem 0;
+	text-align: center;	
+}
+#header .top>div a{
+	display: inline-block;
+	width:100%;
+	height:100%;
+	color: #fff;
+	font-size: 1.3125rem;
+}
+#header .top>div h3{
+	font-weight: normal;
+	font-size: 1.25rem;
+	color: #fff;
+}
+.page_login{
+	padding: 0 1.25rem;
+	overflow:hidden;
+}
+.mui-input-row .mui-input-password~.mui-icon-eye{
+	right:7;
+	line-height:38px;
+	top:0;
+}
+.mui-input-row .mui-input-password~.mui-icon-eye.mui-active{
+	color:#31B080;
+}
+/*.animate{
+	animation: shake .1s linear 0s 1 alternate;
+}
+@keyframes shake{
+	0%{
+		transform:rotate(0deg);
+	}
+	25%{
+		transform:rotate(-5deg) ;
+		border:1px solid red;
+	}
+	50%{
+		transform:rotate(5deg) ;
+		border:1px solid red;
+	}
+	100%{
+		transform:rotate(0deg);					
+	}
+}*/
+.loginMethod{
+	overflow:hidden;
+	text-align:center;
+	margin:2rem 0 1rem;
+	}
+.loginMethod a{
+	color:#808080;
+}
+.loginMethod a.active{ 
+	color:#31B080;
+}
+.login_box form{
+	border-radius:6px;
+	background-color:#fff;
+	padding:0 1rem;
+}
+input:-webkit-autofill { box-shadow: 0 0 0px 1000px white inset;}
+.number,.phoneNumber{border-bottom:1px solid #eeeae9;}
+.mui-input-row label{
+	width:20%;
+	padding:11px 0;
+	text-align:center;
+}
+.mui-input-row label~input{
+	width:80%;
+	height:46px;
+	padding:11px 0;
+}
+ .mui-input-row i{ 
+ 	font-size: 1.3125rem;
+ 	color:#eeeae9;
+ } 
+.mui-btn-block{
+	width: 100%;
+	margin: 15px 0 0;
+	padding:0.594rem  0;
+	font-size: .9375rem;
+}
+.mui-btn-primary{
+	border:none;
+	background-color:#31B080;
+	border-radius:6px;
+}
+.login_box .other-entry{
+	padding-top:1.25rem;
+	 font-size: .8125rem;
+}
+.login_box .other-entry .noaccount{
+	color:#BFBFBF;
+}
+.login_box .other-entry .register{
+	color:#31B080;
+}
+.login_box .other-entry .forget{
+	color:#808080;
+}
+.loginMethodContent>div{
+	display: none;
+}
+.loginMethodContent>div.active{
+	display:block;
+}
+#dynamicLogin .mui-input-row label~input{float:left;width:55%;}
+
+#dynamicLogin .mui-input-row button{
+	padding:0 0.6rem;
+	margin-top:3px;
+	color:#31B080;
+	border:1px solid #31B080;
+}
+.loginbtn a{    
+	box-shadow: 3px 3px 6px rgba(0,233,0,.3);
+}
+.border{
+	width:5px;
+	height:5px;
+	border:8px solid transparent;
+	border-bottom:8px solid #fff;
+	position:relative;
+	left:24%;
+}
+.wrongtip{
+	display:none;
+	text-align:center;
+	background-color: #fff4e2;
+    border: 1px solid #fde7ba;
+    border-radius: 4px;
+    color: #666;
+    font-size: .8125rem;
+    margin-top: .9375rem;
+    padding: .5625rem 0;
+}
+@media screen and (max-width: 375px){
+	#dynamicLogin .mui-input-row label~input{
+		width:48%;
+	}
+}
+
+
+

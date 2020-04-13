@@ -1,0 +1,117 @@
+#header{
+	color: #fff;
+    width: 100%;   
+    background: url(../img/header_bg.jpg) no-repeat left top;
+  /* background-color:rgba(0,0,0,.2);*/
+	background-size: 100%;
+	height: 2.813rem;
+	margin: 0 auto;
+	position:fixed;
+	z-index:99;
+}
+#header .top{
+	background-color: rgba(0,0,0,0.5);
+	overflow: hidden;
+	height:  2.813rem;
+}
+#header .top>div{
+	padding: .675rem 0;
+	text-align: center;	
+}
+#header .top>div a{
+	display: inline-block;
+	width:100%;
+	height:100%;
+	color: #fff;
+	font-size: 1.3125rem;
+}
+#header .top>div h3{
+	font-weight: normal;
+	font-size: 1.25rem;
+	color: #fff;
+}
+
+.mui-slider{height:15rem;}
+.mui-bar{
+	background-color:#3399D3;
+}
+.Filtrate a span{
+	font-size: .8rem;
+}
+.activity-img{
+    margin:.8rem 0 3px;    		
+}
+.activity-img img{
+	border-radius:15px;
+	padding:2px;
+}
+.activity-img a{
+    display:inline-block;
+    width:100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.activity-img p{
+	color:#000;
+	font-size:0.9rem;
+	margin-top:-5px;
+	padding: 6px 26px 3px 8px;
+	text-align: left;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	position:relative;
+}
+.activity-img p span{
+	position:absolute;
+	right:10px;
+}
+.activity-content{
+	margin:20px 0;
+}
+.activity-one a img{
+	width:100%;
+    height: 9rem;
+}   	
+.activity-img ul{
+	margin:5px 0 8px;
+   	overflow: hidden;
+   	border-top-left-radius:15px;
+	border-top-right-radius:15px;
+}
+.activity-img ul li img{
+	width:100%; 
+	height:8rem; 		
+}
+.activity-img ul li{
+	width:49%;
+	float:left;
+}
+.activity-one,.activity-two{
+	box-shadow:0 0 30px #aaa;
+    border: 1px solid #ccc;
+	border-top-left-radius:15px;
+	border-top-right-radius:15px;
+}
+.activity-two:first-child{margin-right:5px;}
+
+.mui-slider .mui-slider-group .mui-slider-item{
+	height:10rem;
+}
+.mui-slider .mui-slider-group .mui-slider-item img{
+	height:20rem;
+}
+.jqqd{
+	position: relative;
+}
+.jqqd p{
+	position: absolute;
+	top: 32%;
+	text-align: center;
+    width: 100%;
+	font-size:14px;
+}
+/*.mui-content{padding-top:45px;}*/
+#footer{
+	margin-top:40px;
+}

@@ -1,0 +1,98 @@
+#firstSelect p{line-height:25px;color: #999;font-size:12px;}
+.mask_calendar {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0,0,0,.4);
+	display: none;
+	z-index: 9999;
+}
+.calendar {
+	height: 400px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.animated {
+	animation-duration: 1s;
+	animation-fill-mode: both;
+}
+@keyframes slideInDown {
+	from {
+		transform: translate3d(0, -100%, 0);
+		visibility: visible;
+	}
+
+	to {
+		transform: translate3d(0, 0, 0);
+	}
+}
+.slideInDown {
+	animation-name: slideInDown;
+}
+
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active{
+	background-color:#31B080;
+}
+
+.ClockHouse-date{
+	border-bottom: 1px dashed #333;
+    font-size: .75rem;
+    padding-top: 1.263rem;
+    text-align:center;
+    position:relative;
+}
+.ClockHouse-date p{
+	height:1.8rem;
+	background-color:#E4E4E4;
+}
+.ClockHouse-date p span{
+	height:1.8rem;
+	line-height:1.8rem;
+}
+.ClockHouse-date .date-name{
+	text-align:left;
+	color:#fff;
+	position:absolute;
+	left:0;	
+	padding: 0 1rem;
+	background-color:#31B080;
+}
+.ClockHouse-date .date{
+	color:#333;
+	font-size:1rem;	
+}
+.midnight-date{
+	border-bottom: 1px dashed #333;
+    font-size: .75rem;
+    padding-top: 1.263rem;
+    text-align:center;
+    height:50px;
+   
+}
+.midnight-date p{
+	height:1.8rem;
+	background-color:#E4E4E4;
+	position:relative;
+	bottom:0;
+}
+.midnight-date p span{
+	height:1.8rem;
+	line-height:1.8rem;
+}
+.midnight-date .date-name{
+	text-align:left;
+	color:#fff;
+	position:absolute;
+	left:0;	
+	padding: 0 1rem;
+	background-color:#31B080;
+}
+.midnight-date .date{
+	color:#333;
+	font-size:1rem;	
+}

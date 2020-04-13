@@ -1,0 +1,123 @@
+#header{
+	color: #fff;
+    width: 100%;   
+    background: url(../../img/header_bg.jpg) no-repeat left top;
+	background-size: 100%;
+	height: 2.813rem;
+	margin: 0 auto;
+	z-index: -1;
+}
+#header .top{
+	background-color: rgba(0,58,58,0.5);
+	overflow: hidden;
+	height:  2.813rem;
+}
+
+#header .top>div{
+	padding: .675rem 0;
+	text-align: center;	
+}
+#header .top>div a{
+	display: inline-block;
+	width:100%;
+	height:100%;
+	color: #fff;
+	font-size: .8125rem;
+}
+#header .top>div h3{
+	font-weight: normal;
+	font-size: 1.25rem;
+	color: #fff;
+}
+#sliderProgressBar{
+		width:20%;
+}
+.mui-control-content {
+	background-color: #FFF;
+	min-height: 260px;
+	margin-bottom:20px;
+}
+.mui-control-content .mui-loading {
+	margin-top: 50px;
+}
+.mui-scroll-wrapper{
+	overflow:auto;
+}	
+.mui-control-content{min-height:615px;}
+ul li{
+	padding: 5px 15px 10px;
+}
+ul li div a{
+	display:inline-block;
+	width:100%;
+	color:#AEAEAE;
+	font-size:0.9rem;
+}
+ul li div a .storeName{
+	color:#333;
+	font-size:1rem;
+	font-weight:bold;
+}
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active{
+	color:#31B080;
+}
+.mui-segmented-control.mui-segmented-control-inverted~.mui-slider-progress-bar{
+	background-color: #31B080;
+}
+.awaitReside,.accomplish,.cancel,.overdue{		
+	font-size:1rem;
+	font-weight:bold;
+}
+.awaitReside{color:#31B080;}
+.accomplish{color:#0BA1DA;}
+.cancel{color:#6B6B6B;}
+.overdue{color:#FF0000;}
+ul li div a hr{border:1px solid #E3E3E3;margin:3px 0;}
+ul li div a .money{
+	color:#333333;
+	vertical-align: middle;
+	margin-top:6px;
+}
+ul li div .qxdd{
+	display: inline-block;
+	width:70px;
+	text-align:center;
+	height:36px;
+	line-height:36px;
+	background-color: #31B080;/*#7ABDDE*/
+	color:#fff;
+	font-size:0.9rem;
+	position:absolute;
+	right:15;
+	bottom:3;
+	z-index:99;
+}
+.is-sure-tier{
+	display:none;
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,.3);
+	z-index:99;
+}
+.is-sure-tier>div{
+	position: relative;
+    background-color: #fff;
+    top: 30%;
+    left: 15%;
+    width: 70%;
+    text-align: center;
+    padding:15px 0;
+}
+.is-sure-tier>div p{
+	margin: 1rem 0 5rem;
+}
+.is-sure-tier>div button{
+	width: 70px;
+}
+
+		
+		
+		
